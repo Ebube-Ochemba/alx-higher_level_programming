@@ -12,9 +12,10 @@ Update...
 
 ## Environment
 
-- Languages: Python 3.4.3
+- Language: Python 3.4.3 & C (for certain tasks)
 - OS: Ubuntu 20.04 LTS
-- Style guidelines: [PEP 8 (version 1.7)](https://peps.python.org/pep-0008/)
+- Compiler: python3 ||  gcc 4.8.4
+- Style guidelines: [PEP 8 (version 1.7)](https://peps.python.org/pep-0008/) || [Betty style](https://github.com/holbertonschool/Betty/wiki)
 
 ## Credits
 
