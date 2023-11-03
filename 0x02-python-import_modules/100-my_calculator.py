@@ -24,3 +24,15 @@ if __name__ == "__main__":
         print("{} * {} = {}".format(a, b, mul(a, b)))
     else:
         print("{} / {} = {}".format(a, b, div(a, b)))
+
+'''
+can use dictionary to work like function pointers in C,
+and use that to select the right key/value op/module.
+
+    op = argv[2]
+    f = {"+": add, "-": sub, "*": mul, "/": div}
+
+    a = int(argv[1])
+    b = int(argv[3])
+    print("{:d} {:s} {:d} = {:d}".format(a, op, b, f[op](a, b)))
+'''
