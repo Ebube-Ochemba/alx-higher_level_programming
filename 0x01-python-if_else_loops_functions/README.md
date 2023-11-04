@@ -39,17 +39,29 @@ I learnt about conditionals and loops in Python. `if`, `if ... else`, `break`, `
         - Numbers are separated by `,` , except for the last number, which is followed by a new line.
         - Using no more than two `print` functions and one loop.
         - Without storing numbers or strings in variables or importing modules.
-- [6-print_comb3.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/6-print_comb3.py):Python program that prints all possible different combinations of two digits in ascending order.
+- [6-print_comb3.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/6-print_comb3.py): Python program that prints all possible different combinations of two digits in ascending order.
 	- Numbers are separated by `,` , except for the last number, which is followed by a new line.
 	- The two digits must be different - `01` and `10` are considered identical.
 	- Using no more than three `print` functions and two loops.
 	- Without storing numbers or strings in variables or importing modules.
-- [7-islower.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/7-islower.py):
-- [8-uppercase.py)](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/8-uppercase.py):
-- [9-print_last_digit.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/9-print_last_digit.py):
-- [10-add.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/10-add.py):
-- [11-pow.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/11-pow.py):
-- [12-fizzbuzz.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/12-fizzbuzz.py):
+- [7-islower.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/7-islower.py): Python function that checks for lowercase characters.
+	- Returns `True` if `c` is lowercase, `False` otherwise.
+	- Without importing modules or using `str.upper()` or `str.isupper()`.
+- [8-uppercase.py)](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/8-uppercase.py): Python function that prints a string in uppercase followed by a new line.
+	- Using no more than two `print` functions and one loop.
+	- Without importing modules or using `str.upper()` or `str.isupper()`.
+- [9-print_last_digit.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/9-print_last_digit.py): Python function that prints the last digit of a number.
+	- Returns the value of the last digit.
+	- Without importing modules.
+- [10-add.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/10-add.py): Python function that returns the addition of two integers.
+	- Without importing modules.
+- [11-pow.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/11-pow.py): Python function that returns `a` to the power of `b`.
+	- Without importing modules.
+- [12-fizzbuzz.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/12-fizzbuzz.py): Python function that prints the numbers from `1` to `100` followed by a space.
+	- For multiples of three, `Fizz` is printed instead of the number.
+	- For multiples of five, `Buzz` is printed instead of the number.
+	- For multiples of three and five, `FizzBuzz` is printed instead of the number.
+	- Without importing modules.
 - []():
 
-> [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/test_files):
+> [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/test_files): A folder of test files. Provided by Alx.
