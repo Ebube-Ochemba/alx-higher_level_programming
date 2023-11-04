@@ -12,7 +12,7 @@ Update...
 
 - [0-add.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/0-add.py): Python program that imports the function `def add(a, b):` from the file [`add_0.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/test_files/add_0.py) and prints the result of the addition `1 + 2 = 3`.
 	- Output: `<a value> + <b value> = <add(a, b) value>` followed by a new line.
-- [1-calculation.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/2-args.py): Python program that imports functions from the file `[calculator_1.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/test_files/calculator_1.py) and prints the result of the addition, subtraction, multiplication and division of `10` and `5`.
+- [1-calculation.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/2-args.py): Python program that imports functions from the file [`calculator_1.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/test_files/calculator_1.py) and prints the result of the addition, subtraction, multiplication and division of `10` and `5`.
 	- Output: `<a value> <operator> <b value> = <operation(a, b) value>` followed by a new line.
 - [2-args.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/3-infinite_add.py): Python program that prints the number of and list of its arguments.
 	- Output: `[Number of arguments]` argument (if number is one) or arguments (otherwise), followed by:
