@@ -8,25 +8,18 @@
 
 int check_cycle(listint_t *list)
 {
-	listint_t *hare = list; /* fast */
-	listint_t *tortoise = list; /* slow */
+	listint_t *hare, *tortoise;
 
-	if (!list) /* check list */
-		return (0);
+	hare = list; /* fast */
+	tortoise = list; /* slow */
 
-	while (1) /* loop list */
+	while (tortoise && hare && hare->next) /* loop list */
 	{
-		if (hare->next->next != NULL && hare->next != NULL) /* find loop */
-		{
-			hare = hare->next->next; /* 2 paces */
-			tortoise = tortoise->next; /* 1 pace */
+		hare = hare->next->next; /* 2 paces */
+		tortoise = tortoise->next; /* 1 pace */
 
-			if (tortoise == hare) /* loop found */
-				return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		if (tortoise == hare) /* loop found */
+			return (1);
 	}
+	return (0);
 }
