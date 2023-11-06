@@ -13,7 +13,7 @@ int check_cycle(listint_t *list)
 	hare = list; /* fast */
 	tortoise = list; /* slow */
 
-	while (tortoise && hare && hare->next) /* loop list */
+	while (tortoise && hare && hare->next) /* loop list efficiently */
 	{
 		hare = hare->next->next; /* 2 paces */
 		tortoise = tortoise->next; /* 1 pace */
