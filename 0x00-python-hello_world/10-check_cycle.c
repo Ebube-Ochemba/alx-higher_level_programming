@@ -16,7 +16,7 @@ int check_cycle(listint_t *list)
 
 	while (1) /* loop list */
 	{
-		if (tortoise != NULL && hare != NULL) /* find loop */
+		if (hare->next != NULL && tortoise->next->next != NULL) /* find loop */
 		{
 			hare = hare->next->next; /* 2 paces */
 			tortoise = tortoise->next; /* 1 pace */
