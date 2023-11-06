@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * find_listint_loop - find loop in linked list.
- * @head: pointer to head pointer of linked list.
- * Return: address of node where loop starts.
+ * check_cycle - checks if a singly linked list has a cycle in it.
+ * @list: pointer to head pointer of linked list 'list'.
+ * Return: 0 if no cycle, else 1 if cycle exists.
  */
 
 int check_cycle(listint_t *list)
