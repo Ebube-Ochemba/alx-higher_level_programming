@@ -33,7 +33,8 @@ I learnt about python scripts, variables, strings, indices. I also practiced usi
 	- Returns `0` if there is no cycle and `1` if there is.
 >	- Test files:
 >	- [linked_lists.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/test_files/10-linked_lists.c): C functions that handle linked lists.
->	- [10-main.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/test_files/10-main.c): Header file containing definitions and prototypes of all types and functions used for the task.
+>	- [10-main.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/test_files/10-main.c): A test case for the function.
+>	- [lists.h](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/test_files/lists.h): Header file containing definitions and prototypes of all types and functions used for the task.
 - [100-write.py]():
 - [101-compile]():
 - [102-magic_calculation.py]():
