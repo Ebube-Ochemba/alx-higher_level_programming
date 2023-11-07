@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Update...
+I learnt about importing modules, using functions and creating modules in Python and also not executing prints when imported. I also  practiced using the *builtin function* `dir()` and using command line arguments within Python programs.
 
 ## Files
 
