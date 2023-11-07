@@ -2,9 +2,9 @@
 
 > This project was an introduction to Data Structures in Python programming.
 
-## Introduction
+## Summary
 
-Update...
+I learnt about sequence data types; lists and tuples, their peculiarities and how they are used in different ways (*stacks and queues, packing and unpacking*). I also practiced using the `del` statement.
 
 ## Files
 
