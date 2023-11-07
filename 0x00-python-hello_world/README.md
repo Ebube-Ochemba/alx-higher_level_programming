@@ -31,7 +31,7 @@ I learnt about python scripts, variables, strings, indices. I also practiced usi
 - [9-easter_egg.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/9-easter_egg.py): Python script that prints "The Zen of Python" by Tim Peters, followed by a new line.
 - [10-check_cycle.c)](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/10-check_cycle.c): C function that checks if a linked list contains a cycle.
 	- Returns `0` if there is no cycle and `1` if there is.
-	- Test files:
+>	- Test files:
 >	- [linked_lists.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/test_files/10-linked_lists.c): C functions that handle linked lists for testing.
 >	- [10-main.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/test_files/10-main.c): Header file containing definitions and prototypes for all types and functions used for the task.
 - []():
