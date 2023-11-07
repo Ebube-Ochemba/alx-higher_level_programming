@@ -34,7 +34,7 @@ I learnt about python scripts, variables, strings, indices. I also practiced usi
 >	- Test files:
 >	- [linked_lists.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/test_files/10-linked_lists.c): C functions that handle linked lists.
 >	- [10-main.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/test_files/10-main.c): A test case for the function.
->	- [lists.h](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/test_files/lists.h): Header file containing definitions and prototypes of all types and functions used for the task.
+>	- [lists.h](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/lists.h): Header file containing definitions and prototypes of all types and functions used for the task.
 - [100-write.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/100-write.py): Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line to `stderr` using the function `write` from the `sys` module.
 	- Exits with a status code of `1`.
 - [101-compile](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/101-compile): Python script that compiles a Python script file stored in the environment variable `$PYFILE` and saves it to an output file `$PYFILEc` (ex. `export PYFILE=my_main.py` => output filename: `my_main.pyc`).
