@@ -62,6 +62,18 @@ I learnt about conditionals and loops in Python. `if`, `if ... else`, `break`, `
 	- For multiples of five, `Buzz` is printed instead of the number.
 	- For multiples of three and five, `FizzBuzz` is printed instead of the number.
 	- Without importing modules.
-- []():
+- [13-insert_number.c](): C function that inserts a number into a sorted linked list.
+	- If the function fails, returns `NULL`.
+	- Otherwise, returns the address of the new node.
+>	- Test files:
+>	- [linked_lists.c](): C functions that handle linked lists.
+>	- [13-main.c](): A test case for the function.
+>	- [lists.h](): Header file containing definitions and prototypes of all types and functions used for the task.
+- [100-print_tebahpla.py](): Python program that prints the alphabet in reverse order, alternating lowercase and uppercase, not followed by a new line.
+	- Using only one `print` and one loop.
+	- Without storing characters in variables or importing modules.
+- [101-remove_char_at.p](): Python function that creates a copy of a string without the character at position `n`.
+	- Without importing modules.
+- [102-magic_calculation.py](): Python function matching exactly a bytecode provided by Holberton School.
 
 > [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/test_files): A folder of test files. Provided by Alx.
