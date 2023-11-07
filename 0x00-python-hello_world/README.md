@@ -2,7 +2,7 @@
 
 > This project was an introduction to Python. It covers fundamental concepts and syntax in Python programming.
 
-## Introduction
+## Summary
 
 I learnt about python scripts, variables, strings, indices. I also practiced using the interpreter, printing text and variables, and indexing and slicing strings in Python.
 
