@@ -1,2 +1,6 @@
 #!/bin/bash
 python3 -m compileall -b $PYFILE
+
+
+# python3 -m compileall: compiles all Python source files in a directory tree.
+# -b: writes the .pyc files in same location as their corresponding .py files.
