@@ -47,7 +47,11 @@ Returns a tuple with two integers:
 	- Without imporitng modules or using `pop()`.
 - [12-switch.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x03-python-data_structures/12-switch.py): Python program that switches the values of variable `a` and `b`.
 	- incomplete [source code](https://intranet.alxswe.com/rltoken/9kg8R2hfPSN5pClcVAeGlA) to be completed.
-- []():
-- []():
+- [13-is_palindrome.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x03-python-data_structures/13-is_palindrome.c): C function that checks if a singly-linked list is a palindrome.
+	- Test files:
+	- [linked_lists.c](): C functions that handle linked lists.
+	- [13-main.c](): A test case for the function.
+	- [lists.h](): Header file containing definitions and prototypes of all types and functions used for the task.
+- [100-print_python_list_info.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x03-python-data_structures/100-print_python_list_info.c): C function that prints basic information about Python lists.
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x03-python-data_structures/test_files): A folder of test files. Provided by Alx.
