@@ -21,7 +21,7 @@ I learnt about importing modules, using functions and creating modules in Python
 - [100-my_calculator.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/100-my_calculator.py): Python program that imports all functions from the file [`calculator_1.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/test_files/calculator_1.py) and handles basic operations.
 - [101-easy_print.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/101-easy_print.py): Python program that prints `#pythoniscool` followed by a new line in the standard output.
 	- Without using `print`, `eval`, `open`, or `sys`.
-- [102-magic_calculation.py](): Python function matching exactly a bytecode provided by Holberton School.
+- [102-magic_calculation.py](): Python function matching exactly a bytecode provided by Alx.
 - [103-fast_alphabet.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x02-python-import_modules/103-fast_alphabet.py): Python program that prints the alphabet in uppercase, followed by a new line.
 	- Without using loops, conditoinals, `str.join()`, string literals, or system calls.
 
