@@ -14,6 +14,8 @@ Update...
 - [0x03. Python - Data Structures: Lists, Tuples](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x03-python-data_structures)
 - [0x04. Python - More Data Structures: Set, Dictionary](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x04-python-more_data_structures)
 - [0x05. Python - Exceptions](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x05-python-exceptions)
+- [0x06. Python - Classes and Objects]()
+- []()
 
 ## Environment
 
