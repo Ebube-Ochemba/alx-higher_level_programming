@@ -17,9 +17,9 @@ I learnt about exceptions and how to use them, when we need to use them, the dif
 - [4-list_division.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x05-python-exceptions/4-list_division.py):
 - [5-raise_exception.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x05-python-exceptions/5-raise_exception.py):
 - [6-raise_exception_msg.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x05-python-exceptions/6-raise_exception_msg.py):
-- []():
-- []():
-- []():
-- []():
+- [100-safe_print_integer_err.py]():
+- [101-safe_function.py]():
+- [102-magic_calculation.py]():
+- [103-python.c]():
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x05-python-exceptions/test_files): A folder of test files. Provided by Alx.
