@@ -22,4 +22,4 @@ I learnt about OOP, what is a class, an object and an instance, the difference b
 - []():
 - []():
 
-> - [test_files](): A folder of test files. Provided by Alx.
+> - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/test_files): A folder of test files. Provided by Alx.
