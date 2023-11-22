@@ -2,7 +2,7 @@
 
 """
 5-square
-Defines class Square with private attribute size and can calculates it area
+Defines class Square with private attribute size and Public attribute area.
 """
 
 
@@ -15,6 +15,13 @@ class Square:
     ----------
     size : int
         The size of a side of the square
+
+    methods
+    -------
+    area()
+        Calculates the area of the current square.
+    my_print()
+        Prints the square in stdout with the character '#'.
     """
 
     def __init__(self, size=0):
@@ -84,10 +91,10 @@ class Square:
 
         return: None.
         """
-        if self.__size is 0:
+        if self.__size == 0:
             print("")
         else:
             for obi in range(self.__size):
                 for obj in range(self.__size):
-                    print("#", end="")
-                print("\n")
+                    print("#", end='')
+                print("")
