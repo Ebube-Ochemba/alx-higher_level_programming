@@ -34,16 +34,10 @@ class Square:
             The size of a side of the square
         position : tuple
             A tuple of 2 positive integers.
-
-        Raise
-        -----
-        TypeError
-            If size is not an integer.
-        ValueError
-            If "size must be < 0.
         """
 
         self.__size = size
+        self.__position = position
 
     @property
     def size(self):
@@ -103,10 +97,15 @@ class Square:
         Raise
         -----
         TypeError
-            If po
+            If position is not a tuple of 2 +ve ints.
         """
 
-        x
+        if type(value) is not tuple or len(value) != 2 or \
+                type(value[0]) is not int or type(value[1]) is not int or \
+                value[0] < 0 or value[1] < 0:
+            raise TypeError("position must be a tuple of 2 positive integers")
+        else:
+            self.__position = value
 
     def area(self):
         """
@@ -126,7 +125,7 @@ class Square:
         if self.__size == 0:
             print("")
         else:
-            for obi in range(self.__size):
-                for obj in range(self.__size):
-                    print("#", end='')
-                print("")
+            print("\n" * self.__position[1], end="")
+            for obj in range(self.__size):
+                print(" " * self.__position[0], end='')
+                print("#" * self.__size)
