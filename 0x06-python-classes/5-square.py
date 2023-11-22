@@ -59,7 +59,7 @@ class Square:
         TypeError
             If size is not an integer.
         ValueError
-            If "size must be < 0
+            If size is < 0
         """
 
         if type(value) is not int:

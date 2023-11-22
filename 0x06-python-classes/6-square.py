@@ -2,7 +2,7 @@
 
 """
 6-square
-Defines class Square with private attribute size and Public attribute area.
+Defines class Square
 """
 
 
@@ -15,6 +15,8 @@ class Square:
     ----------
     size : int
         The size of a side of the square
+    position : tuple
+        A tuple of 2 positive integers
 
     methods
     -------
@@ -24,12 +26,14 @@ class Square:
         Prints the square in stdout with the character '#'.
     """
 
-    def __init__(self, size=0):
+    def __init__(self, size=0, position=(0, 0)):
         """
         Parameters
         ----------
         size : int
             The size of a side of the square
+        position : tuple
+            A tuple of 2 positive integers.
 
         Raise
         -----
@@ -66,7 +70,7 @@ class Square:
         TypeError
             If size is not an integer.
         ValueError
-            If "size must be < 0
+            If size is < 0.
         """
 
         if type(value) is not int:
@@ -75,6 +79,34 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = value
+
+    @property
+    def position(self):
+        """
+        getter
+
+        returns: A tuple of 2 positive integers.
+        """
+
+        return self.__position
+
+    @position.setter
+    def position(self, value):
+        """
+        Setter
+
+        Parameters
+        ----------
+        value : tuple
+             A tuple of 2 positive integers.
+
+        Raise
+        -----
+        TypeError
+            If po
+        """
+
+        x
 
     def area(self):
         """
