@@ -2,7 +2,7 @@
 
 """
 3-square
-Defines class Square with private attribute size
+Defines class Square with private attribute size and can calculates it area
 """
 
 
