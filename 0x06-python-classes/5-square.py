@@ -30,13 +30,6 @@ class Square:
         ----------
         size : int
             The size of a side of the square
-
-        Raise
-        -----
-        TypeError
-            If size is not an integer.
-        ValueError
-            If "size must be < 0.
         """
 
         self.__size = size
