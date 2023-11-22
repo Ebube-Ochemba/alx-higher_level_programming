@@ -15,6 +15,11 @@ class Square:
     ----------
     size : int
         The size of a side of the square
+
+    methods
+    -------
+    area()
+        Calculates the area of the current square.
     """
 
     def __init__(self, size=0):
