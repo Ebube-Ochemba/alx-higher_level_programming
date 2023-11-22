@@ -2,7 +2,7 @@
 
 """
 3-square
-Defines class Square with private attriarea method.
+Defines class Square
 """
 
 

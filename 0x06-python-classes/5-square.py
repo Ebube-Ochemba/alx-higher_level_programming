@@ -2,7 +2,7 @@
 
 """
 5-square
-Defines class Square with private attribute size and Public attribute area.
+Defines class Square
 """
 
 

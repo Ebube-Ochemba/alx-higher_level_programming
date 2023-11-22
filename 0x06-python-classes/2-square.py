@@ -2,7 +2,7 @@
 
 """
 2-square
-Defines class Square with private attribute size
+Defines class Square
 """
 
 
