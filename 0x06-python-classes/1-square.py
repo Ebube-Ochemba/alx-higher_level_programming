@@ -16,6 +16,7 @@ class Square:
     size : int
         The size of a side of the square
     """
+
     def __init__(self, size):
         """
         Parameters
@@ -23,4 +24,5 @@ class Square:
         size : int
             The size of a side of the square
         """
+
         self.__size = size
