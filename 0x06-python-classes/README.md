@@ -17,9 +17,9 @@ I learnt about OOP, what is a class, an object and an instance, the difference b
 - [4-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/4-square.py):
 - [5-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/5-square.py):
 - [6-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/6-square.py):
-- []():
-- []():
-- []():
-- []():
+- [100-singly_linked_list.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/100-singly_linked_list.py):
+- [101-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/101-square.py):
+- [102-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/102-square.py):
+- [103-magic_class.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/103-magic_class.py):
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/test_files): A folder of test files. Provided by Alx.
