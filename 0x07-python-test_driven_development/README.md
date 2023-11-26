@@ -26,4 +26,4 @@ I learnt about interactive test and the importance of tests, how to write Docstr
 - []():
 - []():
 
-> - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/test_files): A folder of test files. Provided by Alx.
+> - [main_test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/main_test_files): A folder of test files. Provided by Alx.
