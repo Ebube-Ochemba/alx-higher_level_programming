@@ -144,7 +144,7 @@ class Rectangle:
         else:
             rec = ""
             for row in range(self.__height):
-                for column in range(self.width):
+                for column in range(self.__width):
                     rec = rec + "#"
                 rec = rec + "\n"
         return rec
