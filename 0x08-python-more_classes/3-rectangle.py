@@ -129,3 +129,18 @@ class Rectangle:
             return 0
         else:
             return (2 * (self.__width + self.__height))
+
+    def __str__(self):
+        """
+        x
+        """
+
+        if self.__width == 0 or self.__height == 0:
+            return ("")
+        else:
+            rec = ""
+            for row in range(self.__height):
+                for column in range(self.width):
+                    rec = rec + "#"
+                rec = rec + "\n"
+        return rec
