@@ -24,6 +24,8 @@ class Rectangle:
         Calculates the area of the current Rectangle.
     perimeter()
         Calculates the perimeter of the current Rectangle.
+    __str__
+        Builds a string of '#' that representa a rectangle.
     """
 
     def __init__(self, width=0, height=0):
@@ -132,7 +134,9 @@ class Rectangle:
 
     def __str__(self):
         """
-        x
+        Builds a string of '#' that representa a rectangle.
+
+        return: A string of '#' that represents a rectangle.
         """
 
         if self.__width == 0 or self.__height == 0:
