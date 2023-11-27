@@ -4,7 +4,7 @@
 
 ## Summary
 
-I learnt about he special `__str__` and `__repr__` methods, their similarities and how to use them, what a class attribute is and its difference from an object attribute, what class methods and static methods are.
+I learnt about the special `__str__` and `__repr__` methods, their similarities and how to use them, what a class attribute is and its difference from an object attribute, what class methods and static methods are.
 
 ## Files
 
