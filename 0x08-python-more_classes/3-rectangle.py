@@ -146,5 +146,6 @@ class Rectangle:
             for row in range(self.__height):
                 for column in range(self.__width):
                     rec = rec + "#"
-                rec = rec + "\n"
+                if row != self.__height - 1:
+                    rec = rec + "\n"
         return rec
