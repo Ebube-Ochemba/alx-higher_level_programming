@@ -14,7 +14,7 @@ class Rectangle:
     Attributes
     ---------
     number_of_instances : int
-        increments/decrements per instance instantiation/deletion.
+        Increments/decrements per instance instantiation/deletion.
     print_symbol : any
         Used as symbol for string representation
     width : int
