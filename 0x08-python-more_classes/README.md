@@ -20,6 +20,6 @@ I learnt about the special `__str__` and `__repr__` methods, their similarities 
 - [7-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/7-rectangle.py):
 - [8-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/8-rectangle.py):
 - [9-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/9-rectangle.py):
-- []():
+- [101-nqueens.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/101-nqueens.py):
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/test_files): A folder of test files. Provided by Alx.
