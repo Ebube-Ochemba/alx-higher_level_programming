@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 """
 100-locked_class
 Defines a locked class
