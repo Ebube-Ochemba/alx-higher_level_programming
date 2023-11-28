@@ -17,6 +17,8 @@ Update...
 - [0x06. Python - Classes and Objects](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x06-python-classes)
 - [0x07. Python - Test-driven development](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x07-python-test_driven_development)
 - [0x08. Python - More Classes and Objects](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x08-python-more_classes)
+- [0x09. Python - Everything is object](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x09-python-everything_is_object)
+- [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/)
 
 ## Environment
 
