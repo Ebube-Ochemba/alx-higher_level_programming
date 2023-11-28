@@ -14,9 +14,9 @@ class Rectangle:
     Attributes
     ---------
     number_of_instances : int
-    increments/decrements per instance instantiation/deletion.
+        Increments/decrements per instance instantiation/deletion.
     print_symbol : any
-        Used as symbol for string representation
+        Used as symbol for string representation.
     width : int
         The width of the rectangle.
     height : int
@@ -34,6 +34,8 @@ class Rectangle:
         Builds a string representation of code to recreate a new instance.
     __del__
         Print the a message when an instance of rectangle is deleted.
+    bigger_or_equal(rect_1, rect_2)
+        Find the biggest rectangle based on the area.
     """
 
     number_of_instances = 0
@@ -181,3 +183,36 @@ class Rectangle:
 
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
+
+    @staticmethod
+    def bigger_or_equal(rect_1, rect_2):
+        """
+        Find the biggest rectangle based on the area.
+
+        parameters
+        ----------
+        rect_1 : Rectangle
+            An instance of Rectangle to compare.
+        rect_2 : Rectangle
+            An instance of Rectangle to compare.
+
+        Raise
+        -----
+        TypeError
+            If rect_1 or rect_2 is not an instance of Rectangle
+
+        return: the biggest rectangle.
+        """
+
+        if not isinstance(rect_1, Rectangle):
+            raise TypeError("rect_1 must be an instance of Rectangle")
+        if not isinstance(rect_2, Rectangle):
+            raise TypeError("rect_2 must be an instance of Rectangle")
+
+        area_rect_1 = rect_1.__width * rect_1.__height
+        area_rect_2 = rect_2.__width * rect_2.__height
+
+        if area_rect_1 >= area_rect_2:
+            return rect_1
+        else:
+            return rect_2
