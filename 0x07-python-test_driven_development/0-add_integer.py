@@ -7,18 +7,17 @@ Contains a function that add two integers.
 
 
 def add_integer(a, b=98):
-    """
-    Returns the addition of two integers. 
+    """Computes and returns the sum of two numbers.
 
-    Parameters
-    ---------
-    a : int or float
-        The first value.
-    b : int or float
-        The second value.
+    Args:
+        a (int or float): The first value.
+        b (int or float): The second value.
 
     Return:
-        The sum of both values.
+        An int representing the sum of 'a' and 'b'.
+
+    Raises:
+        TypeError: An error occurs when 'a' or 'b' is not an int or float.
     """
 
     if type(a) is not int and type(a) is not float:
