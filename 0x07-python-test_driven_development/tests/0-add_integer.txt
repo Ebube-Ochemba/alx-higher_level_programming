@@ -82,9 +82,66 @@ Using list comprehension and loop to test multiple values.
 
 Using really large numbers.
 
-	
+	>>> add_integer(1234567890987654312, 9)
+	1234567890987654321
 
 Non-Numbers
 ===========
 
-Using 
+Using string
+
+	>>> add_integer("hello", 3)
+	Traceback (most recent call last):
+	...
+	TypeError: 'a' must be an integer
+
+	>>> add_integer(4, "bye")
+	Traceback (most recent call last):
+	...
+	TypeError: 'b' must be an integer
+
+Using ...
+
+        >>> add_integer()
+
+Using ...
+
+        >>> add_integer()
+
+Using ...
+
+        >>> add_integer()
+
+Using ...
+
+        >>> add_integer()
+
+Using ...
+
+        >>> add_integer()
+
+Using ...
+
+        >>> add_integer()
+
+Using ...
+
+        >>> add_integer()
+
+Others
+======
+
+Using no args
+
+	>>> add_integer()
+	Traceback (most recent call last):
+	...
+	TypeError: add_integer() missing 1 required positional argument: 'a'
+
+Using more than two args
+
+	>>> add_integer(1, 2, 3)
+	Traceback (most recent call last):
+	...
+	TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+
