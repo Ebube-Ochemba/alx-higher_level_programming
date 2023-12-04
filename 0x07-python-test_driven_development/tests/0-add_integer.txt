@@ -88,7 +88,7 @@ Using really large numbers.
 Non-Numbers
 ===========
 
-Using string
+Using a string for a and b.
 
 	>>> add_integer("hello", 3)
 	Traceback (most recent call last):
