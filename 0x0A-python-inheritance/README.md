@@ -27,4 +27,4 @@ I learnt about superclass, baseclass or parentclass. Also, how to inherit class 
 - [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/):
 - [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/):
 
-> - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/test_files): A folder of test files. Provided by Alx.
+> - [main_test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/main_test_files): A folder of test files. Provided by Alx.
