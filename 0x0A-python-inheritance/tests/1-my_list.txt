@@ -23,6 +23,10 @@ The module and function documentation can be verified a required.
 	>>> len(mod) > 1
 	True
 
+==========
+Test Cases
+==========
+
 Check that MyList inherits from list:
 	>>> issubclass(MyList, list)
 	True
