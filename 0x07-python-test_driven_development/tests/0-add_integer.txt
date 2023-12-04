@@ -51,14 +51,14 @@ Using a positive and a negative integer.
 
 	>>> add_integer(-5, 8)
 	3
-	>>> add_integer(56, 16)
+	>>> add_integer(56, -16)
 	40
 
 Using two floating point numbers.
 
 	>>> add_integer(13.0, 17.5)
 	30
-	>>> add_integer(4.9. 6.6)
+	>>> add_integer(4.9, 6.6)
 	10
 
 Using a floating point number and positive integer.
@@ -100,9 +100,12 @@ Using string
 	...
 	TypeError: 'b' must be an integer
 
-Using ...
+Using None
 
-        >>> add_integer()
+        >>> add_integer(None)
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
 
 Using ...
 
