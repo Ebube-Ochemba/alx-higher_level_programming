@@ -93,12 +93,12 @@ Using string
 	>>> add_integer("hello", 3)
 	Traceback (most recent call last):
 	...
-	TypeError: 'a' must be an integer
+	TypeError: a must be an integer
 
 	>>> add_integer(4, "bye")
 	Traceback (most recent call last):
 	...
-	TypeError: 'b' must be an integer
+	TypeError: b must be an integer
 
 Using None
 
