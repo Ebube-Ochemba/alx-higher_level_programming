@@ -27,6 +27,36 @@ The module and function documentation can be verified a required.
 Test Cases
 ==========
 
-Check that MyList inherits from list:
+if MyList inherits from list:
 	>>> issubclass(MyList, list)
 	True
+
+Empty list
+	>>> a = Mylist()
+	>>> a.print_sorted()
+	[]
+
+Append
+	>>> a.append(1)
+	>>> a.append(2)
+	>>> a.append(3)
+	>>> a.append(4)
+	>>> print(a)
+	[1, 2, 3, 4]
+
+Sorted
+	>>> a.print_sorted()
+	[1, 2, 3, 4]
+
+Unsorted
+	>>> a = MyList()
+	>>> a.append(4)
+	>>> a.append(2)
+	>>> a.append(1)
+	>>> a.append(3)
+	>>> print(a)
+	[4, 2, 3, 1]
+	>>> a.print_sorted()
+	[1, 2, 3, 4]
+	>>> print(a)
+	[4, 2, 3, 1]
