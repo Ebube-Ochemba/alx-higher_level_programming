@@ -10,6 +10,7 @@ The values must be integers or floats, otherwise exceptions would be raised.
 Documentation
 =============
 The module and function documentation can be verified a required.
+
 	>>> module_doc = __import__("0-add_integer").__doc__
 	>>> print(len(module_doc) > 0)
 	True
@@ -18,5 +19,72 @@ The module and function documentation can be verified a required.
 	>>> print(len(funciont_doc) > 0)
 	True
 
+==========
 Test Cases
 ==========
+
+Numbers
+=======
+
+Using the default 'b' integer(98).
+	
+	>>> add_integer(10)
+	108
+	>>> add_integer(-5)
+	93
+
+Using two positive integers.
+
+	>>> add_integer(4, 7)
+	11
+	>>> add_integer(25, 14)
+	39
+
+Using two negative integers.
+
+	>>> add_integer(-3, -5)
+	-8
+	>>> add_integer(-40, -30)
+	-70
+
+Using a positive and a negative integer.
+
+	>>> add_integer(-5, 8)
+	3
+	>>> add_integer(56, 16)
+	40
+
+Using two floating point numbers.
+
+	>>> add_integer(13.0, 17.5)
+	30
+	>>> add_integer(4.9. 6.6)
+	10
+
+Using a floating point number and positive integer.
+
+	>>> add_integer(4.9, 16)
+	20
+	>>> add_integer(45.3, 14)
+	59
+
+Using a floating point number and a negative integer.
+
+	>>> add_integer(14.9, -9)
+	5
+	>>> add_integer(6.6, -1)
+	5
+
+Using list comprehension and loop to test multiple values.
+
+	>>> [add_integer(i, i ** 2) for i in range(6)]
+	[0, 2, 6, 12, 20, 30]
+
+Using really large numbers.
+
+	
+
+Non-Numbers
+===========
+
+Using 
