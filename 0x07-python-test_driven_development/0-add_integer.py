@@ -7,7 +7,7 @@ Contains a function that add two integers.
 
 
 def add_integer(a, b=98):
-    """Computes and returns the sum of two numbers.
+    """Computes and returns the sum of two integers.
 
     Args:
         a (int or float): The first value.
