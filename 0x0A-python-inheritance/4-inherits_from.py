@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """4-inherits_from
-Defines a function 4-inherits_from().
+Defines a function inherits_from().
 """
 
 
