@@ -1,0 +1,32 @@
+========================
+ How to Use 1-my_list.py
+========================
+
+This module defines a class that inherits from a class 'list'. MyList is a
+subclass of 'list' and will inherit all of its methods.
+
+	>>> MyList = __import__("7-base_geometry").MyList
+
+Documentation
+=============
+The module and function documentation can be verified a required.
+
+	>>> mod = __import__("7-base_geometry").__doc__
+	>>> len(mod) > 1
+	True
+
+	>>> class = __import__("7-base_geometry").BaseGeometry.__doc__
+	>>> len(class) > 1
+	True
+
+	>>> meth = __import__("7-base_geometry").BaseGeometry.area.__doc__
+	>>> len(mod) > 1
+	True
+
+	>>> meth = __import__("7-base_geometry").BaseGeometry.integer_validator.__doc__
+	>>> len(mod) > 1
+	True
+
+==========
+Test Cases
+==========

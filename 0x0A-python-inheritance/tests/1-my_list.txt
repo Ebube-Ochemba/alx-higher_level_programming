@@ -19,7 +19,7 @@ The module and function documentation can be verified a required.
 	>>> len(class) > 1
 	True
 
-	>>> mod = __import__("1-my_list").MyList.print_sorted.__doc__
+	>>> meth = __import__("1-my_list").MyList.print_sorted.__doc__
 	>>> len(mod) > 1
 	True
 
