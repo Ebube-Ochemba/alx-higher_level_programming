@@ -62,5 +62,7 @@ class Rectangle(BaseGeometry):
             The height of the rectangle.
         """
 
-        self.__width = self.integer_validator("width", width)
-        self.__height = self.integer_validator("height", height)
+        super().integer_validator("width", width)
+        super().integer_validator("height", height)
+        self.__width = width
+        self.__height = height
