@@ -4,7 +4,7 @@
 
 ## Summary
 
-I learnt about how to open a file, write text in a file, read the full content of a file, read a file line by line, move the cursor in a file, make sure a file is closed after using it. Also, What is and how to use the `with` statement, what is `JSON`, serialization, deserialization, how to convert a Python data structure to a JSON string and how to convert a JSON string to a Python data structure.
+I learnt about how to open a file (`open()`), write text in a file (`write()`), read the full content of a file (`read()`), read a file line by line (`readlines()`), move the cursor in a file (`seek()`), make sure a file is closed after using it (`close()`). Also, What is and how to use the `with` statement, what is `JSON`, serialization, deserialization, how to convert a Python data structure to a JSON string and how to convert a JSON string to a Python data structure.
 
 ## Files
 
