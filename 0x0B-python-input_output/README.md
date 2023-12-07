@@ -23,7 +23,7 @@ I learnt about how to open a file (`open()`), write text in a file (`write()`), 
 - [10-student.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/10-student.py):
 - [11-student.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/11-student.py):
 - [12-pascal_triangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/12-pascal_triangle.py):
-- [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/):
-- [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/):
+- [100-append_after.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/100-append_after.py):
+- [101-stats.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/101-stats.py):
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/test_files): A folder of test files. Provided by Alx.
