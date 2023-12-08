@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """10-square
-Defines class Square.
+Defines a class Square.
 """
 
 
@@ -18,13 +18,13 @@ class Square(Rectangle):
     """
 
     def __init__(self, size):
-        """validates values"""
+        """Validates values"""
 
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(size, size)
 
     def area(self):
-        """return the area of current square"""
+        """Returns the area of current square"""
 
         return self.__size ** 2
