@@ -1,35 +1,30 @@
 #!/usr/bin/python3
 
 """100-my_int
-Defines class My_int.
+Defines class MyInt.
 """
 
 
-class My_int:
+class MyInt(int):
     """
     Inherits from built-in int.
 
     methods
     -------
-    __new__
-        x
     __eq__
-        x
+        Inverts __eq__ result.
     __ne__
-        x
+        Inverts __ne__ result.
     """
 
-    def __new__(cls, value):
-        """x"""
-
-        return super(MyInt, cls).__new__(cls, value)
-
     def __eq__(self, other):
-        """x"""
+        """Inverts __eq__ result"""
 
-        return not super(MyInt, self).__eq__(other)
+        if isinstance(self, type(other)):
+            return False
 
     def __ne__(self, other):
-        """x"""
+        """Inverts __ne__ result"""
 
-        return not super(MyInt, self).__ne__(other)
+        if isinstance(self, type(other)):
+            return True
