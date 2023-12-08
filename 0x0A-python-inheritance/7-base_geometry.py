@@ -12,6 +12,8 @@ class BaseGeometry:
     -------
     area()
         An incomplete method.
+    integer_validator()
+        Checks if 'value' is an int or is > 0.
     """
 
     def area(self):

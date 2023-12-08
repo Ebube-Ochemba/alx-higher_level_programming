@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-"""10-base_geometry
-Defines class BaseGeometry.
+"""10-square
+Defines class Square.
 """
 
 
@@ -9,13 +9,22 @@ Rectangle = __import__("9-rectangle").Rectangle
 
 
 class Square(Rectangle):
-    """represents a square"""
+    """Inherits from Rectangle
+
+    methods
+    -------
+    area()
+        Calculates area of a square.
+    """
+
     def __init__(self, size):
         """validates values"""
+
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(size, size)
 
     def area(self):
-        """return square area"""
+        """return the area of current square"""
+
         return self.__size ** 2

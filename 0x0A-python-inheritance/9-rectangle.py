@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-"""9-base_geometry
-Defines class BaseGeometry.
+"""9-rectangle
+Defines a class Rectangle.
 """
 
 
@@ -10,8 +10,14 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
     """
-    1-Rectangle
-    Defines class Rectangle
+    Inherits from BaseGeometry.
+
+    methods
+    -------
+    area()
+        Calculates area of a Rectangle.
+    __str__
+        return a descrpition.
     """
 
     def __init__(self, width, height):
