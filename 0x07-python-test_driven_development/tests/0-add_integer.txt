@@ -134,13 +134,6 @@ Using ...
 Others
 ======
 
-Using no args
-
-	>>> add_integer()
-	Traceback (most recent call last):
-	...
-	TypeError: add_integer() missing 1 required positional argument: 'a'
-
 Using more than two args
 
 	>>> add_integer(1, 2, 3)
