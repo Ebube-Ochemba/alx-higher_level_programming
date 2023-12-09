@@ -17,8 +17,8 @@ def matrix_divided(matrix, div):
         A new matrix representing the division of the 'matrix' by 'div'.
 
     Raises:
-        TypeError: An error occurs when 'matrix' isn't an int/float matrix or
-                   'div' isn't a number.
+        TypeError: An error occurs when 'matrix' isn't an int/float matrix OR
+                   'div' isn't a number OR uneven matrix row size.
         ZeroDivisionError: An error occurs when 'div is = 0.
     """
 
