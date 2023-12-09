@@ -22,3 +22,21 @@ The module and function documentation can be verified a required.
 ==========
 Test Cases
 ==========
+
+Basic division
+
+	>>> matrix = [[1, 2, 3], [4, 5, 6]]
+
+	>>> matrix_divided(matrix, 3)
+	[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+	>>> matrix_divided([[3]], 5)
+	[[0.6]]
+	>>> matrix_divided(matrix, 1000000)
+	[[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
+
+Using a negative div
+
+	>>> matrix_divided([[3, 4], [6, 7]], -2)
+	[[-1.5, -2.0], [-3.0, -3.5]]
+
+
