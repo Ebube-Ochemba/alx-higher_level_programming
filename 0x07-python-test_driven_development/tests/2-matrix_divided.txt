@@ -44,7 +44,7 @@ using Non numbers in matrix
 	>>> matrix_divided([[2, 3], [4, 5]], float('inf'))
 	[[0.0, 0.0], [0.0, 0.0]]
 
-	>>> matrix = [[1, "H", 3], [4.1, 5, 6.8]]
+	>>> matrix = [[1, "H", 3], [4.1, "I", 6.8]]
         >>> matrix_divided(matrix, 11)
 	Traceback (most recent call last):
         ...
@@ -53,7 +53,14 @@ using Non numbers in matrix
 Using Non number as div
 
 	>>> matrix = [[1, 2, 3], [4, 5, 6]]
-        >>> matrix_divided(matrix, hello)
+        >>> matrix_divided(matrix, "hello")
         Traceback (most recent call last):
         ...
         TypeError: div must be a number
+
+Uneven matrix row size
+	
+	>>> matrix = [[2, 3, 3], {3, 4}, [5, 6]]
+	>>> matrix_divided(matrix, 13)
+	Traceback (most recent call last):
+	TypeError: Each row of the matrix must have the same size
