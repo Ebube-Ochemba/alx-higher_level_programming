@@ -44,12 +44,6 @@ using Non numbers in matrix
 	>>> matrix_divided([[2, 3], [4, 5]], float('inf'))
 	[[0.0, 0.0], [0.0, 0.0]]
 
-	>>> matrix = [[1, "H", 3], [4.1, "I", 6.8]]
-        >>> matrix_divided(matrix, 11)
-	Traceback (most recent call last):
-        ...
-        TypeError: matrix must be a matrix (list of lists) of integers/floats
-
 	>>> matrix = [[3, "9"], [12, 3]]
 	>>> matrix_divided(matrix, 2)
 	Traceback (most recent call last):
@@ -63,12 +57,6 @@ Using Non number as div
 	Traceback (most recent call last):
 	...
 	TypeError: div must be a number	
-
-	>>> matrix = [[1, 2, 3], [4, 5, 6]]
-        >>> matrix_divided(matrix, "hello")
-        Traceback (most recent call last):
-        ...
-        TypeError: div must be a number
 
 Uneven matrix row size
 	
