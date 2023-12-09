@@ -1,0 +1,24 @@
+=============================
+ How to Use 2-matrix_divided
+=============================
+
+This module defines a function that sums two integers ``add_integer(a, b=98)``.
+The values must be integers or floats, otherwise exceptions would be raised.
+
+	>>> add_integer = __import__('2-matrix_divided').matrix_divided
+
+Documentation
+=============
+The module and function documentation can be verified a required.
+
+	>>> module_doc = __import__("2-matrix_divided").__doc__
+	>>> print(len(module_doc) > 0)
+	True
+
+	>>> funciont_doc = __import__("2-matrix_divided").matrix_divided.__doc__
+	>>> print(len(funciont_doc) > 0)
+	True
+
+==========
+Test Cases
+==========
