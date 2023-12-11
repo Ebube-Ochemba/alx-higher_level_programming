@@ -33,3 +33,11 @@ class TestBase(unittest.TestCase):
         """Tests that id is updated when arg isn't passed"""
         base = Base()
         self.assertEqual(base.id, 1)
+
+    def test_module_docstring(self):
+        """Tests for the module docstring"""
+        self.assertTrue(len(Base.__doc__) >= 1)
+
+    def test_class_docstring(self):
+        """Tests for the Base class docstring"""
+        self.assertTrue(len(Base.__doc__) >= 1)
