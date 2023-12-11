@@ -13,7 +13,7 @@ class Base:
 
     Attributes
     ----------
-    __nb_objects (int): 
+    __nb_objects (int):
 
     """
 
