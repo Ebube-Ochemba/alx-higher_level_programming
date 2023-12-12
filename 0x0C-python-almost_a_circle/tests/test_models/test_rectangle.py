@@ -106,17 +106,17 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(TypeError):
             new = Rectangle("2", 2, 2, 2, 2)
 
-    def test_valide_attrs_2(self):
+    def test_valid_attrs_2(self):
         """Passing a string value"""
         with self.assertRaises(TypeError):
             new = Rectangle(2, "2", 2, 2, 2)
 
-    def test_valide_attrs_3(self):
+    def test_valid_attrs_3(self):
         """Pass a string value"""
         with self.assertRaises(TypeError):
             new = Rectangle(2, 2, "2", 2, 2)
 
-    def test_valide_attrs_4(self):
+    def test_valid_attrs_4(self):
         """Passing a string value"""
         with self.assertRaises(TypeError):
             new = Rectangle(2, 2, 2, "2", 2)
@@ -140,3 +140,10 @@ class TestRectangle(unittest.TestCase):
         """Passing an invalid values"""
         with self.assertRaises(ValueError):
             new = Rectangle(1, 1, 1, -1)
+
+    def test_area(self):
+        """Checking the return value of area()"""
+        new = Rectangle(4, 5)
+        self.assertEqual(new.area(), 20)
+
+    s
