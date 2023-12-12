@@ -73,6 +73,70 @@ class TestRectangle(unittest.TestCase):
             new = Rectangle(1)
 
     def test_incorrect_amount_attrs_1(self):
-        """ Tests error raised if no args is passed"""
+        """Tests error raised if no args is passed"""
         with self.assertRaises(TypeError):
             new = Rectangle()
+
+    def test_access_private_attrs(self):
+        """Accessing a private attribute"""
+        new = Rectangle(1, 1)
+        with self.assertRaises(AttributeError):
+            new.__width
+
+    def test_access_private_attrs_2(self):
+        """Accessing a private attribute"""
+        new = Rectangle(1, 1)
+        with self.assertRaises(AttributeError):
+            new.__height
+
+    def test_access_private_attrs_3(self):
+        """Accessing a private attribute"""
+        new = Rectangle(1, 1)
+        with self.assertRaises(AttributeError):
+            new.__x
+
+    def test_access_private_attrs_4(self):
+        """Accessing a private attribute"""
+        new = Rectangle(1, 1)
+        with self.assertRaises(AttributeError):
+            new.__y
+
+    def test_valide_attrs(self):
+        """Passing a string value"""
+        with self.assertRaises(TypeError):
+            new = Rectangle("2", 2, 2, 2, 2)
+
+    def test_valide_attrs_2(self):
+        """Passing a string value"""
+        with self.assertRaises(TypeError):
+            new = Rectangle(2, "2", 2, 2, 2)
+
+    def test_valide_attrs_3(self):
+        """Pass a string value"""
+        with self.assertRaises(TypeError):
+            new = Rectangle(2, 2, "2", 2, 2)
+
+    def test_valide_attrs_4(self):
+        """Passing a string value"""
+        with self.assertRaises(TypeError):
+            new = Rectangle(2, 2, 2, "2", 2)
+
+    def test_value_attrs(self):
+        """Passing an invalid value"""
+        with self.assertRaises(ValueError):
+            new = Rectangle(0, 1)
+
+    def test_value_attrs_1(self):
+        """Passing an invalid value"""
+        with self.assertRaises(ValueError):
+            new = Rectangle(1, 0)
+
+    def test_value_attrs_2(self):
+        """Passing an invalid value"""
+        with self.assertRaises(ValueError):
+            new = Rectangle(1, 1, -1)
+
+    def test_value_attrs_3(self):
+        """Passing an invalid values"""
+        with self.assertRaises(ValueError):
+            new = Rectangle(1, 1, 1, -1)
