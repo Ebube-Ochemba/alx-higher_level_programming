@@ -142,8 +142,22 @@ class TestRectangle(unittest.TestCase):
             new = Rectangle(1, 1, 1, -1)
 
     def test_area(self):
-        """Checking the return value of area()"""
+        """Checks return value of area()"""
         new = Rectangle(4, 5)
         self.assertEqual(new.area(), 20)
 
-    s
+    def test_area_2(self):
+        """Checks return value of area()"""
+        new = Rectangle(2, 2)
+        self.assertEqual(new.area(), 4)
+        new.width = 4
+        self.assertEqual(new.area(), 8)
+        new.height = 4
+        self.assertEqual(new.area(), 16)
+
+    def test_area_3(self):
+        """ Checking the return value of area method """
+        new = Rectangle(4, 8)
+        self.assertEqual(new.area(), 32)
+        new2 = Rectangle(9, 9)
+        self.assertEqual(new2.area(), 81)
