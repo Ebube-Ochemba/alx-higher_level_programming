@@ -5,6 +5,8 @@ base
 Defines a class Base.
 """
 
+import json
+
 
 class Base:
     """
@@ -13,8 +15,12 @@ class Base:
 
     Attributes
     ----------
-    __nb_objects (int):
+    __nb_objects (int): ...
 
+    methods
+    -------
+    to_json_string
+        Returns the JSON string representation of list_dictionaries.
     """
 
     __nb_objects = 0
@@ -31,3 +37,11 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
+
+    @staticmethod
+    def to_json_string(list_dictionaries):
+        """Returns the JSON string representation of list_dictionaries"""
+        if not list_dictionaries:
+            return "[]"
+        else:
+            return json.dumps(list_dictionaries)
