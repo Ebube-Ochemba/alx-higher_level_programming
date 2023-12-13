@@ -31,6 +31,8 @@ class Rectangle(Base):
         Returns [Rectangle] (<id>) <x>/<y> - <width>/<height>.
     update()
         Updates the rectangle's attributes.
+    to_dictionary()
+        Returns the dictionary representation of a Rectangle.
     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
@@ -176,3 +178,13 @@ class Rectangle(Base):
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
+
+    def to_dictionary(self):
+        """"""
+        list_atr = ['id', 'width', 'height', 'x', 'y']
+        temp_dict = {}
+
+        for key in list_atr:
+            temp_dict[key] = getattr(self, key)
+
+        return temp_dict
