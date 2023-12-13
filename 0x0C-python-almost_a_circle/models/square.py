@@ -17,6 +17,8 @@ class Square(Rectangle):
         return [Square] (<id>) <x>/<y> - <size>
     update()
         Updates the square's attributes.
+    to_dictionary()
+        Returns the dictionary representation of a Square.
     """
     def __init__(self, size, x=0, y=0, id=None):
         """
@@ -65,3 +67,16 @@ class Square(Rectangle):
                     setattr(self, 'height', value)
                 else:
                     setattr(self, key, value)
+
+    def to_dictionary(self):
+        """Returns the dictionary representation of a Square"""
+        list_atr = ['id', 'size', 'x', 'y']
+        temp_dict = {}
+
+        for key in list_atr:
+            if key == 'size':
+                temp_dict[key] = getattr(self, 'width')
+            else:
+                temp_dict[key] = getattr(self, key)
+
+        return temp_dict
