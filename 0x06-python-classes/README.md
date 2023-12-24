@@ -30,6 +30,5 @@ I learnt about OOP, what is a class, an object and an instance, the difference b
 - [102-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/102-square.py): A class `Square` that defines a square by: (based on [`4-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/4-square.py))
 > (check task for specifications)
 - [103-magic_class.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/103-magic_class.py): A Python class `MagicClass` that does exactly the same as the given Python bytecode.
-> (check task for specifications)
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/test_files): A folder of test files. Provided by Alx.
