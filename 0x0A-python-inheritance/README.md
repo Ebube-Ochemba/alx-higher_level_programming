@@ -22,13 +22,16 @@ I learnt about superclass, baseclass or parentclass. Also, how to inherit class 
 - [7-base_geometry.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py): A class `BaseGeometry` (based on [`6-base_geometry.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/6-base_geometry.py)).
 > (check task for specifications)
 	- [7-base_geometry.txt](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/tests/7-base_geometry.txt):  A doctest for [7-base_geometry.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py).
-- [8-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/8-rectangle.py):  A class `Rectangle` that inherits from `BaseGeometry` (based on [`7-base_geometry.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py)).
+- [8-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/8-rectangle.py):  A class `Rectangle` that inherits from `BaseGeometry` ([`7-base_geometry.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py)).
 > (check task for specifications)
-- [9-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/9-rectangle.py):
-- [10-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/10-square.py):
-- [11-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/11-square.py):
-- [100-my_int.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/100-my_int.py):
-- [101-add_attribute.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/101-add_attribute.py):
+- [9-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/9-rectangle.py): A class `Rectangle` that inherits from `BaseGeometry` ([`7-base_geometry.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py)) (based on [`8-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/8-rectangle.py)).
+> (check task for specifications)
+- [10-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/10-square.py): A class `Square` that inherits from `Rectangle` ([`9-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/9-rectangle.py)).
+> (check task for specifications)
+- [11-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/11-square.py): A class `Square` that inherits from `Rectangle` ([`9-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/9-rectangle.py)) (based on [`10-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/10-square.py)).
+> (check task for specifications)
+- [100-my_int.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/100-my_int.py): A class `MyInt` that inherits from `int`.
+- [101-add_attribute.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/101-add_attribute.py): A function that adds a new attribute to an object if it’s possible
 
-> - [tests](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x0A-python-inheritance/tests):
+> - [tests](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x0A-python-inheritance/tests): A folder of Doctest `.txt` files.
 > - [main_test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/main_test_files): A folder of test files. Provided by Alx.
