@@ -29,6 +29,6 @@ I learnt about the special `__str__` and `__repr__` methods, their similarities 
 > (check task for specifications)
 - [9-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/9-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`8-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/8-rectangle.py))
 > (check task for specifications)
-- [101-nqueens.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/101-nqueens.py): A program that solves the N queens problem.
+- [101-nqueens.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/101-nqueens.py): A program that solves the N queens problem (N queens puzzle in chess).
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/test_files): A folder of test files. Provided by Alx.
