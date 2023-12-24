@@ -12,11 +12,19 @@ I learnt about OOP, what is a class, an object and an instance, the difference b
 
 - [0-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/0-square.py): An empty class `Square` that defines a square.
 - [1-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/1-square.py): A class `Square` that defines a square by: (based on [`0-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/0-square.py))
-- [2-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/2-square.py):
-- [3-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/3-square.py):
-- [4-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/4-square.py):
-- [5-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/5-square.py):
-- [6-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/6-square.py):
+	- Private instance attribute: `size`
+	- Instantiation with `size` (no type/value verification)
+	- You are not allowed to import any module
+- [2-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/2-square.py):  A class `Square` that defines a square by: (based on [`1-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/1-square.py))
+> 	- (check task for specifications)
+- [3-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/3-square.py): A class `Square` that defines a square by: (based on [`2-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/2-square.py))
+>       - (check task for specifications)
+- [4-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/4-square.py): A class `Square` that defines a square by: (based on [`3-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/3-square.py))
+>       - (check task for specifications)
+- [5-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/5-square.py): A class `Square` that defines a square by: (based on [`4-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/4-square.py))
+>       - (check task for specifications)
+- [6-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/6-square.py): A class `Square` that defines a square by: (based on [`5-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/5-square.py))
+>       - (check task for specifications)
 - [100-singly_linked_list.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/100-singly_linked_list.py):
 - [101-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/101-square.py):
 - [102-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/102-square.py):
