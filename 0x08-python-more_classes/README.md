@@ -10,16 +10,25 @@ I learnt about the special `__str__` and `__repr__` methods, their similarities 
 
 > Each file contains the solution to a task in the project.
 
-- [0-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/0-rectangle.py):
-- [1-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/1-rectangle.py):
-- [2-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/2-rectangle.py):
-- [3-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/3-rectangle.py):
-- [4-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/4-rectangle.py):
-- [5-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/5-rectangle.py):
-- [6-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/6-rectangle.py):
-- [7-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/7-rectangle.py):
-- [8-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/8-rectangle.py):
-- [9-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/9-rectangle.py):
-- [101-nqueens.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/101-nqueens.py):
+- [0-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/0-rectangle.py): An empty class `Rectangle` that defines a rectangle.
+- [1-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/1-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`0-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/0-rectangle.py))
+> (check task for specifications)
+- [2-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/2-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`1-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/1-rectangle.py))
+> (check task for specifications)
+- [3-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/3-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`2-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/2-rectangle.py))
+> (check task for specifications)
+- [4-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/4-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`3-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/3-rectangle.py))
+> (check task for specifications)
+- [5-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/5-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`4-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/4-rectangle.py))
+> (check task for specifications)
+- [6-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/6-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`5-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/5-rectangle.py))
+> (check task for specifications)
+- [7-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/7-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`6-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/6-rectangle.py))
+> (check task for specifications)
+- [8-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/8-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`7-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/7-rectangle.py))
+> (check task for specifications)
+- [9-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/9-rectangle.py): A class `Rectangle` that defines a rectangle by: (based on [`8-rectangle.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/8-rectangle.py))
+> (check task for specifications)
+- [101-nqueens.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/101-nqueens.py): A program that solves the N queens problem.
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x08-python-more_classes/test_files): A folder of test files. Provided by Alx.
