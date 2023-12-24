@@ -10,8 +10,8 @@ I learnt about OOP, what is a class, an object and an instance, the difference b
 
 > Each file contains the solution to a task in the project.
 
-- [0-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/0-square.py):
-- [1-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/1-square.py):
+- [0-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/0-square.py): An empty class `Square` that defines a square.
+- [1-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/1-square.py): A class `Square` that defines a square by: (based on [`0-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/0-square.py))
 - [2-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/2-square.py):
 - [3-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/3-square.py):
 - [4-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/4-square.py):
