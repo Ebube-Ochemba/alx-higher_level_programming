@@ -4,7 +4,7 @@
 
 ## Summary
 
-I learnt about...
+It was mainly a test of knowledge based on my progress so far.
 
 ## Files
 
