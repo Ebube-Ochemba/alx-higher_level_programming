@@ -29,7 +29,7 @@ I learnt about how to open a file (`open()`), write text in a file (`write()`), 
 - [11-student.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/11-student.py): A class `Student` that defines a student (based on [`10-student.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/10-student.py)).
 > (check task for specifications)
 - [12-pascal_triangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/12-pascal_triangle.py): A function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal’s triangle of `n`. (_Technical interview preparation_)
-- [100-append_after.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/100-append_after.py):
-- [101-stats.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/101-stats.py):
+- [100-append_after.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/100-append_after.py): A function that inserts a line of text to a file, after each line containing a specific string.
+- [101-stats.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/101-stats.py): A script that reads `stdin` line by line and computes metrics
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/test_files): A folder of test files. Provided by Alx.
