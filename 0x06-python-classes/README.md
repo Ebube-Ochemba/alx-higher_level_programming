@@ -16,16 +16,16 @@ I learnt about OOP, what is a class, an object and an instance, the difference b
 	- Instantiation with `size` (no type/value verification)
 	- You are not allowed to import any module
 - [2-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/2-square.py):  A class `Square` that defines a square by: (based on [`1-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/1-square.py))
-> 	- (check task for specifications)
+> (check task for specifications)
 - [3-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/3-square.py): A class `Square` that defines a square by: (based on [`2-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/2-square.py))
->       - (check task for specifications)
+> (check task for specifications)
 - [4-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/4-square.py): A class `Square` that defines a square by: (based on [`3-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/3-square.py))
->       - (check task for specifications)
+> (check task for specifications)
 - [5-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/5-square.py): A class `Square` that defines a square by: (based on [`4-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/4-square.py))
->       - (check task for specifications)
+> (check task for specifications)
 - [6-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/6-square.py): A class `Square` that defines a square by: (based on [`5-square.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/5-square.py))
->       - (check task for specifications)
-- [100-singly_linked_list.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/100-singly_linked_list.py):
+> (check task for specifications)
+- [100-singly_linked_list.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/100-singly_linked_list.py): 
 - [101-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/101-square.py):
 - [102-square.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/102-square.py):
 - [103-magic_class.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x06-python-classes/103-magic_class.py):
