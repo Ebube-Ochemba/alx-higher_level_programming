@@ -12,7 +12,7 @@ I learnt about how to open a file (`open()`), write text in a file (`write()`), 
 
 - [0-read_file.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/0-read_file.py): A function that reads a text file (`UTF8`) and prints it to stdout.
 > (use `with` statement)
-- [1-write_file.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/1-write_file.py): function that writes a string to a text file (`UTF8`) and returns the number of characters written.
+- [1-write_file.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/1-write_file.py): A function that writes a string to a text file (`UTF8`) and returns the number of characters written.
 > (use `with` statement)
 - [2-append_write.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0B-python-input_output/2-append_write.py): A function that appends a string at the end of a text file (`UTF8`) and returns the number of characters added.
 > (use `with` statement)
