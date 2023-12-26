@@ -10,7 +10,7 @@ I learnt about python scripts, variables, strings, indices. I also practiced usi
 
 > Each file contains the solution to a task in the project.
 
-- [0-run](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run): Bash script that runs a Python script file saved in the environment variable `$PYFILE`.
+- [x][0-run](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/0-run): Bash script that runs a Python script file saved in the environment variable `$PYFILE`.
 - [1-run_inline](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/1-run_inline):  Bash script that runs Python code saved in the environment variable `$PYCODE`.
 - [2-print.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/2-print.py): Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line using the function `print`.
 - [3-print_number.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x00-python-hello_world/3-print_number.py): Python script that prints the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
