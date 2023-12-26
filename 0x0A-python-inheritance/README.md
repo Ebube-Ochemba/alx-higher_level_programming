@@ -11,7 +11,7 @@ I learnt about superclass, baseclass or parentclass. Also, how to inherit class 
 > Each file contains the solution to a task in the project.
 
 - [x] [0-lookup.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/0-lookup.py): A function that returns the list of available attributes and methods of an object
-- [x] [1-my_list.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/1-my_list.py): A class `MyList` that inherits from `list`.
+- [ ] [1-my_list.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/1-my_list.py): A class `MyList` that inherits from `list`.
 	- [1-my_list.txt](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/tests/1-my_list.txt): A doctest for [`1-my_list.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/1-my_list.py).
 - [x] [2-is_same_class.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/2-is_same_class.py): A function that returns `True` if the object is exactly an instance of the specified class, otherwise `False`.
 - [x] [3-is_kind_of_class.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/3-is_kind_of_class.py): A function that returns `True` if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class, otherwise `False`.
@@ -19,7 +19,7 @@ I learnt about superclass, baseclass or parentclass. Also, how to inherit class 
 - [x] [5-base_geometry.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/5-base_geometry.py): An empty class `BaseGeometry`.
 - [x] [6-base_geometry.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/6-base_geometry.py): A class `BaseGeometry` (based on [`5-base_geometry.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/5-base_geometry.py)).
 > (check task for specifications)
-- [x] [7-base_geometry.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py): A class `BaseGeometry` (based on [`6-base_geometry.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/6-base_geometry.py)).
+- [ ] [7-base_geometry.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py): A class `BaseGeometry` (based on [`6-base_geometry.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/6-base_geometry.py)).
 > (check task for specifications)
 	- [7-base_geometry.txt](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/tests/7-base_geometry.txt):  A doctest for [7-base_geometry.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py).
 - [x] [8-rectangle.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/8-rectangle.py):  A class `Rectangle` that inherits from `BaseGeometry` ([`7-base_geometry.py`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py)).
