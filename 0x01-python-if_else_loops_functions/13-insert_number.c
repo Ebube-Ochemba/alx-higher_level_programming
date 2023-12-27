@@ -29,7 +29,7 @@ listint_t *insert_node(listint_t **head, int number)
 	/* traverse & comapere list nodes to insert node in ascending order */
 	while (current)
 	{
-		if ((!current->next) || (current->next->n > number))
+		if ((!current->next) || (current->next->n >= number))
 		{
 			new->next = current->next;
 			current->next = new;
