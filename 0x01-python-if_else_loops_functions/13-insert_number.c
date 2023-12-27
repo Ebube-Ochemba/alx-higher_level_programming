@@ -14,16 +14,19 @@ listint_t *insert_node(listint_t **head, int number)
 	if (new == NULL)
 		return (NULL);
 
+	/* create new node */
 	new->n = number;
 	new->next = NULL;
 
 	if ((!current) || (current->n >= number))
 	{
+		/* insert node at beginning */
 		new->next = *head;
 		*head = new;
 		return (new);
 	}
 
+	/* traverse & comapere list nodes to insert node in ascending order */
 	while (current)
 	{
 		if ((!current->next) || (current->next->n > number))
