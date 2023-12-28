@@ -33,7 +33,7 @@ I learnt about sets and dictionaries in Python. Iterating them, selecting the ap
 - [x] [12-roman_to_int.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/12-roman_to_int.py): Python function that converts a Roman numeral to an integer. (_Technical interview preparation_)
 - [x] [100-weight_average.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/100-weight_average.py): Python function that returns the weighted average of all integers tuple `(<score>, <weight>)`.
 - [x] [101-square_matrix_map.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/101-square_matrix_map.py): Python function that computes the square value of all integers of a matrix using `map`.
-- [ ] [102-complex_delete.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/102-complex_delete.py): Python function that deletes keys with a specific value in a dictionary.
+- [x] [102-complex_delete.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/102-complex_delete.py): Python function that deletes keys with a specific value in a dictionary.
 - [ ] [103-python.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x04-python-more_data_structures/103-python.c): Two C functions that print some basic info about Python lists and Python bytes objects.
 
 > - [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x04-python-more_data_structures/test_files): A folder of test files. Provided by Alx.
