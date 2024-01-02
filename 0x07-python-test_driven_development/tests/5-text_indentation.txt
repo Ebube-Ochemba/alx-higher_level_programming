@@ -1,0 +1,20 @@
+This module defines a function that prints a text with 2 new lines after each of these characters: '.', '?' and ':'.
+Text must be a string, otherwise exceptions would be raised.
+
+	>>> text_indentation = __import__('5-text_indentation').5-text_indentation
+
+Documentation
+=============
+The module and function documentation can be verified a required.
+
+	>>> module_doc = __import__("5-text_indentation").__doc__
+	>>> print(len(module_doc) > 0)
+	True
+
+	>>> funcion_doc = __import__("5-text_indentation").text_indentation.__doc__
+	>>> print(len(funcion_doc) > 0)
+	True
+
+==========
+Test Cases
+==========

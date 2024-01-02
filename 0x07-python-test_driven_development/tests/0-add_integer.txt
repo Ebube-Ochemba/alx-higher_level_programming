@@ -15,8 +15,8 @@ The module and function documentation can be verified a required.
 	>>> print(len(module_doc) > 0)
 	True
 
-	>>> funciont_doc = __import__("0-add_integer").add_integer.__doc__
-	>>> print(len(funciont_doc) > 0)
+	>>> funcion_doc = __import__("0-add_integer").add_integer.__doc__
+	>>> print(len(funcion_doc) > 0)
 	True
 
 ==========
