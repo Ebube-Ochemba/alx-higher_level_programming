@@ -12,11 +12,54 @@ The module and function documentation can be verified a required.
 	True
 
 	>>> funcion_doc = __import__("3-say_my_name").say_my_name.__doc__
-	>>> print(len(funciont_doc) > 0)
+	>>> print(len(funcion_doc) > 0)
 	True
 
 ==========
 Test Cases
 ==========
 
+Passing valid strings
 
+	>>> say_my_name("Walter", "White")
+	My name is Walter White
+
+Passing one valid string
+
+	>>> say_my_name("Salamanca")
+	My name is Salamanca 
+
+Passing None as the last_name
+
+	>>> say_my_name("John", None)
+	Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+Passing None as the first_name
+
+	>>> say_my_name(None)
+	Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+
+Passing an integer as the first_name
+
+	>>> say_my_name(7)
+	Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+
+Passing a number as the last_name
+
+	>>> say_my_name("James", 0)
+	Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+Missing two arguments
+
+	>>> say_my_name()
+	Traceback (most recent call last):
+	...
+	TypeError: say_my_name() missing 1 required positional argument: 'first_name'
