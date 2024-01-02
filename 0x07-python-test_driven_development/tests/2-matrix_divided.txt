@@ -55,6 +55,13 @@ Using Non number as div
 	...
 	TypeError: div must be a number
 
+Using infinity (+/-)
+
+	>>> matrix_divided([[2, 3], [4, 5]], float('inf'))
+	[[0.0, 0.0], [0.0, 0.0]]
+	>>> matrix_divided([[2, 3], [4, 5]], float('-inf'))
+	[[-0.0, -0.0], [-0.0, -0.0]]
+
 Uneven matrix row size
 	
 	>>> matrix = [[2, 3, 3], [3, 4], [5, 6]]
