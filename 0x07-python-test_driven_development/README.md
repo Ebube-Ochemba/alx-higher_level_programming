@@ -6,6 +6,23 @@
 
 I learnt about interactive test and the importance of tests, how to write Docstrings to create tests, and how to write documentation for each module and function, what basic option flags to create tests are and how to find edge cases.
 
+1. To run all tests at the same time;
+```sh
+$ python3 -m doctest ./tests/*
+```
+2. To run a particular test;
+```sh
+$ python3 -m doctest <./path/to/test/file>
+```
+3. To read module documentation;
+```sh
+$ python3 -c 'print(__import__("my_module").__doc__)'
+```
+4. To read function documentation;
+```sh
+$ python3 -c 'print(__import__("my_module").my_function.__doc__)'
+```
+
 ## Files
 
 > Each file contains the solution to a task in the project.
