@@ -53,7 +53,7 @@ Using Non number as div
 	>>> matrix_divided(matrix, "2")
 	Traceback (most recent call last):
 	...
-	Exception: TypeError: div must be a number	
+	TypeError: div must be a number
 
 Uneven matrix row size
 	
