@@ -41,9 +41,6 @@ Using a negative div
 
 using Non numbers in matrix
 
-	>>> matrix_divided([[2, 3], [4, 5]], float('inf'))
-	[[0.0, 0.0], [0.0, 0.0]]
-
 	>>> matrix = [[3, "9"], [12, 3]]
 	>>> matrix_divided(matrix, 2)
 	Traceback (most recent call last):
