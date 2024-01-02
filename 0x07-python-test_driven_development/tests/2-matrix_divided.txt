@@ -52,13 +52,27 @@ Using Non number as div
 	>>> matrix = [[3, 9], [12, 3]]
 	>>> matrix_divided(matrix, "2")
 	Traceback (most recent call last):
-		...
-	TypeError: div must be a number	
+	...
+	Exception: TypeError: div must be a number	
 
 Uneven matrix row size
 	
 	>>> matrix = [[2, 3, 3], {3, 4}, [5, 6]]
 	>>> matrix_divided(matrix, 13)
 	Traceback (most recent call last):
-		...
+	...
 	TypeError: Each row of the matrix must have the same size
+
+Not providing "div"
+
+	>>> matrix_divided([[3, 4]])
+	Traceback (most recent call last):
+	...
+	TypeError: matrix_divided() missing 1 required positional argument: 'div'
+
+Not providing arguments
+
+	>>> matrix_divided()
+	Traceback (most recent call last):
+	...
+	TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
