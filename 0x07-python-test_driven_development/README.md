@@ -12,7 +12,7 @@ $ python3 -m doctest ./tests/*
 ```
 2. To run a particular test;
 ```sh
-$ python3 -m doctest <./path/to/test/file>
+$ python3 -m doctest <./path/to/test_file>
 ```
 3. To read module documentation;
 ```sh
