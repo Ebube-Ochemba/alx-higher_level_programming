@@ -18,3 +18,77 @@ The module and function documentation can be verified a required.
 ==========
 Test Cases
 ==========
+
+Print a square with a size of 1
+
+	>>> print_square(1)
+	#
+
+Print a square with a size of 4
+
+	>>> print_square(4)
+	####
+	####
+	####
+	####
+
+Print a square with a size of 10
+
+	>>> print_square(10)
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+	##########
+
+Print a square with size of 0
+
+	>>> print_square(0)
+
+
+Passing a string as size
+
+	>>> print_square("007")
+	Traceback (most recent call last):
+	...
+	TypeError: size must be an integer
+
+PAssin a float as size
+
+	>>> print_square(6.9)
+	Traceback (most recent call last):
+	...
+	TypeError: size must be an integer
+
+Passing a negative integer as size
+
+	>>> print_square(-9)
+	Traceback (most recent call last):
+	...
+	ValueError: size must be >= 0
+
+Passing negative floating number
+
+	>>> print_square(-3.0)
+	Traceback (most recent call last):
+	...
+	TypeError: size must be an integer
+
+Passing None
+
+	>>> print_square(None)
+	Traceback (most recent call last):
+	...
+	TypeError: size must be an integer
+
+Passing nothing
+
+	>>> print_square()
+	Traceback (most recent call last):
+	...
+	TypeError: print_square() missing 1 required positional argument: 'size'
