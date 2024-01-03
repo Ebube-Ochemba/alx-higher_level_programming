@@ -59,3 +59,17 @@ Printing all special characters
 	<BLANKLINE>
 	:
 	<BLANKLINE>
+
+Passing an Integer
+
+	>>> text_indentation(419)
+	Traceback (most recent call last):
+	...
+	TypeError: text must be a string
+
+Passing None
+
+	>>> text_indentation(None)
+	Traceback (most recent call last):
+	...
+	TypeError: text must be a string
