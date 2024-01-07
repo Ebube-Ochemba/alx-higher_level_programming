@@ -20,11 +20,9 @@ class MyInt(int):
     def __eq__(self, other):
         """Inverts __eq__ result"""
 
-        if isinstance(self, type(other)):
-            return False
+        return False
 
     def __ne__(self, other):
         """Inverts __ne__ result"""
 
-        if isinstance(self, type(other)):
-            return True
+        return True
