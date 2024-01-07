@@ -5,7 +5,7 @@
 This module defines a class that inherits from a class 'list'. MyList is a
 subclass of 'list' and will inherit all of its methods.
 
-	>>> MyList = __import__("7-base_geometry").MyList
+	>>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
 
 Documentation
 =============
@@ -16,7 +16,7 @@ The module and function documentation can be verified a required.
 	True
 
 	>>> cls = __import__("7-base_geometry").BaseGeometry.__doc__
-	>>> len(class) > 0
+	>>> len(cls) > 0
 	True
 
 	>>> meth = __import__("7-base_geometry").BaseGeometry.area.__doc__
@@ -30,3 +30,31 @@ The module and function documentation can be verified a required.
 ==========
 Test Cases
 ==========
+
+	>>> bg = BaseGeometry()
+
+check "integer_vaidator(name, value")
+
+	>>> bg.integer_validator("my_int", 12)
+	>>> bg.integer_validator("width", 89)
+
+check if value is not an int
+
+	>>> bg.integer_validator("name", "John")
+	Traceback (most recent call last):
+	...
+	TypeError: name must be an integer
+
+check if value is zero
+
+	>>> bg.integer_validator("age", 0)
+	Traceback (most recent call last):
+	...
+	ValueError: age must be greater than 0
+
+check if value is less than zero
+
+	>>> bg.integer_validator("distance", -4)
+	Traceback (most recent call last):
+	...
+	ValueError: distance must be greater than 0
