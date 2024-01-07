@@ -2,6 +2,7 @@
  How to Use 1-my_list.py
 ========================
 
+
 This module defines a class that inherits from a class 'list'. MyList is a
 subclass of 'list' and will inherit all of its methods.
 
@@ -12,57 +13,74 @@ Documentation
 The module and function documentation can be verified a required.
 
 	>>> mod = __import__("1-my_list").__doc__
-	>>> len(mod) > 1
+	>>> len(mod) > 0
 	True
 
-	>>> class = __import__("1-my_list").MyList.__doc__
-	>>> len(class) > 1
+	>>> cls = __import__("1-my_list").MyList.__doc__
+	>>> len(cls) > 0
 	True
 
 	>>> meth = __import__("1-my_list").MyList.print_sorted.__doc__
-	>>> len(mod) > 1
+	>>> len(meth) > 0
 	True
 
 ==========
 Test Cases
 ==========
 
-if MyList inherits from list:
+Check if MyList inherits from list
+
 	>>> issubclass(MyList, list)
 	True
 
-Empty list
-	>>> a = Mylist()
-	>>> a.print_sorted()
+Check for empty list
+
+	>>> ml = MyList()
+	>>> ml.print_sorted()
 	[]
 
-Append
-	>>> a.append(1)
-	>>> a.append(2)
-	>>> a.append(3)
-	>>> a.append(4)
-	>>> print(a)
+Check if append works
+
+	>>> ml.append(1)
+	>>> ml.append(2)
+	>>> ml.append(3)
+	>>> ml.append(4)
+	>>> print(ml)
 	[1, 2, 3, 4]
 
-Sorted
-	>>> a.print_sorted()
+Check with already sorted list
+
+	>>> ml.print_sorted()
 	[1, 2, 3, 4]
 
-Unsorted
-	>>> a = MyList()
-	>>> a.append(4)
-	>>> a.append(2)
-	>>> a.append(1)
-	>>> a.append(3)
-	>>> print(a)
-	[4, 2, 3, 1]
-	>>> a.print_sorted()
-	[1, 2, 3, 4]
-	>>> print(a)
-	[4, 2, 3, 1]
+Check with unsorted list
 
-too many arguments:
-	>>> l.print_sorted(1)
+	>>> ml = MyList()
+	>>> ml.append(4)
+	>>> ml.append(3)
+	>>> ml.append(2)
+	>>> ml.append(1)
+	>>> print(ml)
+	[4, 3, 2, 1]
+	>>> ml.print_sorted()
+	[1, 2, 3, 4]
+	>>> print(ml)
+	[4, 3, 2, 1]
+
+Checking for one negative number
+
+	>>> ml.append(-1)
+	>>> ml.append(5)
+	>>> print(ml)
+	[4, 3, 2, 1, -1, 5]
+	>>> ml.print_sorted()
+	[-1, 1, 2, 3, 4, 5]
+	>>> print(ml)
+	[4, 3, 2, 1, -1, 5]
+
+Check with  argument
+
+	>>> ml.print_sorted(1)
 	Traceback (most recent call last):
 	...
 	TypeError: print_sorted() takes 1 positional argument but 2 were given
