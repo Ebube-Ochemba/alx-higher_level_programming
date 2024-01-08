@@ -38,12 +38,12 @@ $ python3 -c 'print(__import__("my_module").my_function.__doc__)'
 - [x] [5-text_indentation.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/5-text_indentation.py): A function that prints a text with 2 new lines after each of these characters: `.`, `?` and `:`.
 >	- [x] [5-text_indentation.txt](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/5-text_indentation.txt): A file containing doctests for the function.
 - [6-max_integer.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/6-max_integer.py): A function `def max_integer(list=[]):` provided by Alx.
->	- [ ] [6-max_integer_test.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/6-max_integer_test.py): A file containing unittests for the function.
-- []():
->	- []()
-- []():
->	- []():
-- []():
+>	- [x] [6-max_integer_test.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/6-max_integer_test.py): A file containing unittests for the function.
+- [ ] [100-matrix_mul.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/100-matrix_mul.py): A function that multiplies 2 matrices.
+>	- [ ] [100-matrix_mul.txt](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/100-matrix_mul.txt): A file containing doctests for the function.
+- [ ] [101-lazy_matrix_mul.py](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/101-lazy_matrix_mul.py): A function that multiplies 2 matrices by using the module [NumPy](https://numpy.org/).
+>	- [ ] [101-lazy_matrix_mul.txt](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests/101-lazy_matrix_mul.txt): A file containing doctests for the function.
+- [ ] [102-python.c](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/102-python.c): A C function that prints Python strings.
 
 > - [tests](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/tests): A folder containing `.txt` files each containing doctests for the tasks.
 > - [main_test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x07-python-test_driven_development/main_test_files): A folder of test files. Provided by Alx.
