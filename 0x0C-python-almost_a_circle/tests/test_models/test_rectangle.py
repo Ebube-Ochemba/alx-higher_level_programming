@@ -144,6 +144,16 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(ValueError):
             new = Rectangle(1, 1, 1, -1)
 
+    def test_value_attrs_4(self):
+        """Passing an invalid value"""
+        with self.assertRaises(ValueError):
+            new = Rectangle(-1, 2)
+
+    def test_value_attrs_5(self):
+        """Passing an invalid value"""
+        with self.assertRaises(ValueError):
+            new = Rectangle(1, -2)
+
     def test_area(self):
         """Checks return value of area()"""
         new = Rectangle(4, 5)
