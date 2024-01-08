@@ -15,6 +15,12 @@ class TestMaxInteger(unittest.TestCase):
     def test_empty_list(self):
         self.assertIsNone(max_integer([]))
 
+    def test_one_element(self):
+        self.assertEqual(max_integer([5]), 5)
+
+    def test_max_in_middle(self):
+        self.assertEqual(max_integer([1, 2, 3, 5, 4]), 5)
+
     def test_negative_numbers(self):
         self.assertEqual(max_integer([-1, -2, -3, -4]), -1)
 
