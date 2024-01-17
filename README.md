@@ -22,6 +22,7 @@ Update...
 - [0x0B. Python - Input/Output](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x0B-python-input_output)
 - [0x0C. Python - Almost a circle](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle)
 - [0x0D. SQL - Introduction](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x0D-SQL_introduction)
+- [0x0E. SQL - More queries](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries)
 - [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/)
 
 ## Environment
