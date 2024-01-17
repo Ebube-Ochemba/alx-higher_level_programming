@@ -31,5 +31,3 @@ I learnt about what databases are and some of the different types, relational da
 - [ ] [101-avg_temperatures.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0D-SQL_introduction/101-avg_temperatures.sql):
 - [ ] [102-top_city.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0D-SQL_introduction/102-top_city.sql):
 - [ ] [103-max_state.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0D-SQL_introduction/103-max_state.sql):
-
-> - [test_files](): A folder of test files. Provided by Alx.
