@@ -32,4 +32,4 @@ I learnt about how to create a new MySQL user, how to manage privileges for a us
 - [ ] [102-rating_shows.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/102-rating_shows.sql):
 - [ ] [103-rating_genres.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/103-rating_genres.sql):
 
-> [`hbtn_0d_tvshows`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/hbtn_0d_tvshows.sql); Database dump from `hbtn_0d_tvshows` to be imported and used for task 10 - 20 to your __*MySQL server*__.
+> [`hbtn_0d_tvshows`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/hbtn_0d_tvshows.sql); Database dump from `hbtn_0d_tvshows` to be imported to your __*MySQL server*__ and used for task 10 - 20.
