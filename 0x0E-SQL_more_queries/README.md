@@ -27,9 +27,9 @@ I learnt about how to create a new MySQL user, how to manage privileges for a us
 - [x] [14-my_genres.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/14-my_genres.sql):
 - [x] [15-comedy_only.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/15-comedy_only.sql):
 - [x] [16-shows_by_genre.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/16-shows_by_genre.sql):
-- [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/):
-- [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/):
-- [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/):
-- [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/):
+- [ ] [100-not_my_genres.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/100-not_my_genres.sql):
+- [ ] [101-not_a_comedy.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/101-not_a_comedy.sql):
+- [ ] [102-rating_shows.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/102-rating_shows.sql):
+- [ ] [103-rating_genres.sql](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/103-rating_genres.sql):
 
-> [`hbtn_0d_tvshows`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/hbtn_0d_tvshows.sql); Database dump from `hbtn_0d_tvshows` to be imported and used for task 10 - 16 to your __*MySQL server*__.
+> [`hbtn_0d_tvshows`](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/hbtn_0d_tvshows.sql); Database dump from `hbtn_0d_tvshows` to be imported and used for task 10 - 20 to your __*MySQL server*__.
