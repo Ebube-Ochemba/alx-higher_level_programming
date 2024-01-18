@@ -31,5 +31,3 @@ I learnt about how to create a new MySQL user, how to manage privileges for a us
 - [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/):
 - [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/):
 - [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/):
-
-> - [test_files](): A folder of test files. Provided by Alx.
