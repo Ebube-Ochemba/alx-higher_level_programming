@@ -1,9 +1,9 @@
--- List all Comedy shows in 'hbtn_0d_tvshows'
--- 'tv_genres' table contains only one record where name = Comedy
--- Results must be sorted in ascending order by the show title
-SELECT tv_shows.title
-FROM tv_shows
-INNER JOIN tv_show_genres tsg ON tv_shows.id = tsg.show_id
-INNER JOIN tv_genres tg ON tsg.genre_id = tg.id
-WHERE tg.name = 'Comedy'
-ORDER BY tv_shows.title ASC;
+-- List all shows and genres linked to show from 'hbtn_0d_tvshows'
+-- If show doesn't have a genre, display NULL in genre column
+-- Each record should display tv_shows.title, tv_genres.name
+-- Results must be sorted in ascending order by show title
+SELECT tv_shows.title, tv_genres.name
+FROM tv_shows ts
+LEFT JOIN tv_show_genres tsg ON ts.id = tsg.show_id
+LEFT JOIN tv_genres g ON tsg.genre_id = tg.id
+ORDER BY ts.title ASC;
