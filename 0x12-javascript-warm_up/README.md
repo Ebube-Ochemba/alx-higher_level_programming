@@ -1,6 +1,6 @@
-# x
+# JavaScript - Warm up
 
-> This project was on 
+> This project was an introduction to JavaScript.
 
 ## Summary
 
@@ -15,5 +15,3 @@ I learnt about...
 - [ ] []():
 - [ ] []():
 - [ ] []():
-
-> - [test_files](): A folder of test files. Provided by Alx.
