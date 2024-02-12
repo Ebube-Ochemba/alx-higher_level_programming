@@ -23,6 +23,7 @@ Update...
 - [0x0C. Python - Almost a circle](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle)
 - [0x0D. SQL - Introduction](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x0D-SQL_introduction)
 - [0x0E. SQL - More queries](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries)
+- [0x12. JavaScript - Warm up](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x12-javascript-warm_up)
 - [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/)
 
 ## Environment
