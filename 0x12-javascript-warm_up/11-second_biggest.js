@@ -1,20 +1,19 @@
 #!/usr/bin/node
 // A script that searches the second biggest integer in the list of arguments.
 
-const argList = process.argv.slice;
+const myArgs = process.argv.slice(2);
+function compare (a, b) {
+  return a - b;
+}
 
-if (argList.length <= 1) {
+if (myArgs.length === 0 || myArgs.length < 2) {
   console.log(0);
 } else {
-  let largest, secondLargest;
+  let myList = [];
 
-  for (const num in argList) {
-    if (num > largest) {
-      secondLargest = largest;
-      largest = num;
-    } else if (num > secondLargest && n !== largest) {
-        secondLargest = n;
-    }
+  for (const arg in myArgs) {
+    myList.push(Number(myArgs[arg]));
   }
-  console.log(secondLargest);
+  myList = myList.sort(compare);
+  console.log(myList[myList.length - 2]);
 }
