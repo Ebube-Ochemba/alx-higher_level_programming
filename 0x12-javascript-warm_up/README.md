@@ -21,10 +21,12 @@ I learnt about...
 - [x] [8-square.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/8-square.js):
 - [x] [9-add.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/9-add.js):
 - [x] [10-factorial.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/10-factorial.js):
-- [ ] [11-second_biggest.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/11-second_biggest.js):
-- [ ] [12-object.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/):
-- [ ] [13-add.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/13-add.js):
-- [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/):
-- [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/):
-- [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/):
-- [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/):
+- [x] [11-second_biggest.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/11-second_biggest.js):
+- [x] [12-object.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/):
+- [x] [13-add.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/13-add.js):
+- [ ] [100-let_me_const.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/100-let_me_const.js):
+- [ ] [101-call_me_moby.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/101-call_me_moby.js):
+- [ ] [102-add_me_maybe.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/102-add_me_maybe.js):
+- [ ] [103-object_fct.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/103-object_fct.js):
+
+> [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/test_files): A folder of test files. Provided by Alx.
