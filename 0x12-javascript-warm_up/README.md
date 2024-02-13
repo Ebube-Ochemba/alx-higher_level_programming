@@ -4,7 +4,7 @@
 
 ## Summary
 
-I learnt about...
+I learnt about how to run a JavaScript script, how to create variables and constants, differences between `var`, `const` and `let`, all the data types available in JavaScript, how to use the `if`, `if ... else` statements, how to use comments, how to affect values to variables, how to use `while` and `for` loops, how to use `break` and `continue` statements, function and how do you use functions, what a function that does not use any return statement return, scope of variables, arithmetic operators and how to use them, how to manipulate dictionary and how to import a file.
 
 ## Files
 
@@ -24,9 +24,9 @@ I learnt about...
 - [x] [11-second_biggest.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/11-second_biggest.js):
 - [x] [12-object.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/):
 - [x] [13-add.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/13-add.js):
-- [ ] [100-let_me_const.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/100-let_me_const.js):
-- [ ] [101-call_me_moby.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/101-call_me_moby.js):
-- [ ] [102-add_me_maybe.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/102-add_me_maybe.js):
-- [ ] [103-object_fct.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/103-object_fct.js):
+- [x] [100-let_me_const.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/100-let_me_const.js):
+- [x] [101-call_me_moby.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/101-call_me_moby.js):
+- [x] [102-add_me_maybe.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/102-add_me_maybe.js):
+- [x] [103-object_fct.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/103-object_fct.js):
 
 > [test_files](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x12-javascript-warm_up/test_files): A folder of test files. Provided by Alx.
