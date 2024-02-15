@@ -5,13 +5,13 @@ const { dict } = require('./101-data');
 const newDict = {};
 
 let tmp = [];
-for (const [key, value] of Object.entries(dict)) {
-  if (!(value in newDict)) {
+for (const [ID, occurrence] of Object.entries(dict)) {
+  if (!(occurrence in newDict)) {
     tmp = [];
   } else {
-    tmp = newDict[value];
+    tmp = newDict[occurrence];
   }
-  tmp.push(key);
-  newDict[value] = tmp;
+  tmp.push(ID);
+  newDict[occurrence] = tmp;
 }
 console.log(newDict);
