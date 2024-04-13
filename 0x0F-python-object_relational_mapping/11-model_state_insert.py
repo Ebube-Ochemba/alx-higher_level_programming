@@ -4,6 +4,7 @@ A script that adds the State object “Louisiana” to the database hbtn_0e_6_us
 """
 
 import sqlalchemy
+
 from sys import argv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
