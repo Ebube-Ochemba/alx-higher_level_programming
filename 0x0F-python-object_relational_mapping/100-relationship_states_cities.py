@@ -7,7 +7,7 @@ from the database hbtn_0e_100_usa.
 from sys import argv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from model_state import Base, State
+from relationship_state import Base, State
 from relationship_city import City
 
 if __name__ == "__main__":
@@ -22,10 +22,9 @@ if __name__ == "__main__":
 
     california = State(name="California")
     san_francisco = City(name="San Francisco")
-    california.cities.append(san_francisco)
 
+    california.cities.append(california)
     session.add(california)
-    session.add(san_francisco)
 
     session.commit()
     session.close()
