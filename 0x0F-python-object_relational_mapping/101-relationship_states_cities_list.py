@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-Script that creates the State "California" with the City "San Francisco"
-from the database hbtn_0e_100_usa.
+Script that lists all State objects, and corresponding City objects,
+contained in the database hbtn_0e_101_usa.
 """
 
 from sys import argv
