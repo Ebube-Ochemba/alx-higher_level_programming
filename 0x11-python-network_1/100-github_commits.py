@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
     # GET request to GitHub API to retrieve commit info
     response = requests.get('https://api.github.com/repos/{}/{}/commits'
-                     .format(argv[2], argv[1]))
+                            .format(argv[2], argv[1]))
 
     # Creating a 'list' from JSON response
     commits = response.json()
