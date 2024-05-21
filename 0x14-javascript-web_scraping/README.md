@@ -19,5 +19,3 @@ I learnt about how to; extract data from websites, manipulate JSON data, use `re
 - [ ] [6-completed_tasks.js](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/6-completed_tasks.js): A script that computes the number of tasks completed by user id.
 - [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/):
 - [ ] [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/):
-
-> [test_files](): A folder of test files. Provided by Alx.
