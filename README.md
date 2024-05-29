@@ -29,14 +29,14 @@ Update...
 - [0x12. JavaScript - Warm up](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x12-javascript-warm_up)
 - [0x13. JavaScript - Objects, Scopes and Closures](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures)
 - [0x14. JavaScript - Web scraping](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x14-javascript-web_scraping)
-- [](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/)
+- [0x15. JavaScript - Web jQuery](https://github.com/Ebube-Ochemba/alx-higher_level_programming/tree/master/0x15-javascript-web_jquery)
 
 ## Environment
 
-- Languages: Python 3.4.3 & C
+- Languages: Python 3.4.3, C & JavaScript
 - OS: Ubuntu 20.04 LTS
-- Compiler: python3 ||  gcc 4.8.4
-- Style guidelines: [PEP 8 (version 1.7)](https://peps.python.org/pep-0008/) || [Betty style](https://github.com/holbertonschool/Betty/wiki)
+- Compiler: python3 ||  gcc 4.8.4 || Node.js
+- Style guidelines: [PEP 8 (version 1.7)](https://peps.python.org/pep-0008/) || [Betty style](https://github.com/holbertonschool/Betty/wiki) || [semistandard](https://github.com/standard/semistandard)
 
 ## Credits
 
