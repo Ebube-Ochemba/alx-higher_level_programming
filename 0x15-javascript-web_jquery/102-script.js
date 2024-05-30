@@ -1,11 +1,11 @@
 /* global $ */
-$(document).ready(() => {
-    $('INPUT#btn_translate').on('click', () => {
-        const lang = $('INPUT#language_code').val();
-        const apiUrl = `https://hellosalut.stefanbohacek.dev/?lang=${lang}`;
-        $.get(apiUrl, (data) => {
-            $('DIV#hello').text(data.hello);
-        });
+$(document).ready(function () {
+  $('#btn_translate').click(function () {
+    const languageCode = $('#language_code').val();
+    const apiUrl = `https://hellosalut.stefanbohacek.dev/?lang=${languageCode}`;
+
+    $.get(apiUrl, function (data) {
+      $('#hello').text(data.hello);
     });
+  });
 });
-  
